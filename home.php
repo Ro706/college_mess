@@ -31,7 +31,7 @@ include 'components/add_cart.php';
    <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body bgcolor="#f5d365">
 
 <?php include 'components/user_header.php'; ?>
 
@@ -46,39 +46,18 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>order online</span>
-               <h3>delicious pizza</h3>
+               <h3>Time to eat</h3>
                <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-1.png" alt="">
+            <video width="320" height="240"  autoplay loop>
+               <source src="chef.mp4" type="video/mp4" >
+             </video>
             </div>
          </div>
 
-         <div class="swiper-slide slide">
-            <div class="content">
-               <span>order online</span>
-               <h3>chezzy hamburger</h3>
-               <a href="menu.html" class="btn">see menus</a>
-            </div>
-            <div class="image">
-               <img src="images/home-img-2.png" alt="">
-            </div>
-         </div>
-
-         <div class="swiper-slide slide">
-            <div class="content">
-               <span>order online</span>
-               <h3>rosted chicken</h3>
-               <a href="menu.html" class="btn">see menus</a>
-            </div>
-            <div class="image">
-               <img src="images/home-img-3.png" alt="">
-            </div>
-         </div>
 
       </div>
-
-      <div class="swiper-pagination"></div>
 
    </div>
 

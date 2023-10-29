@@ -3,7 +3,7 @@
 :root{
    --yellow:#fed330;
    --red:#e74c3c;
-   --white:#fff;
+   --white:rgb(250, 244, 244);
    --black:#222;
    --light-color:#777;
    --border:.2rem solid var(--black);
@@ -47,7 +47,11 @@ section{
    max-width: 1200px;
    padding:2rem;
 }
-
+#logo{
+   height: 50px;
+   width: 50px;
+   
+}
 .title{
    text-align: center;
    margin-bottom: 2.5rem;
